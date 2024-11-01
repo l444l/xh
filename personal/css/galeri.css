@@ -1,0 +1,39 @@
+.gallery-container {
+  margin-left: 270px;
+  padding: 40px;
+  flex-grow: 1;
+  background-color: #222;
+  border-radius: 0 10px 10px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.gallery-item p {
+  padding: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}

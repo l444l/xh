@@ -1,0 +1,45 @@
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.btn-direct {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-direct:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    margin-top: 15px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn-directions {
+        padding: 10px 20px;
+    }
+}
